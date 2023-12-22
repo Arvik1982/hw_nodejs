@@ -1,0 +1,16 @@
+{
+  "name": "hwnode",
+  "version": "1.0.0",
+  "description": "hw node js",
+  "main": "hw_node_index.js",
+  "scripts": {
+    
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "arseny",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
