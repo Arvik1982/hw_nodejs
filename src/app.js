@@ -33,6 +33,7 @@ if (helloValue!==null & urlSearch!=='?hello=')
     return;
 }
 
+
 if(urlSearch === '?hello=')
 {
     console.log(`2_${searchParameters}`)
