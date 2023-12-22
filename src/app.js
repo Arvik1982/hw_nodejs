@@ -4,7 +4,6 @@ const getUsers= require('./modules/users')
 
 
 const server = http.createServer((request,response)=>{
-
 const url = new URL(request.url, 'http://127.0.0.1:3000'); 
 const helloValue = url.searchParams.get('hello');
 const urlSearch = url.search
