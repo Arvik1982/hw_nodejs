@@ -18,6 +18,7 @@ if(request.url === '/?users')
     response.header ="Content-Type: text/plain";
     response.write(getUsers())
     response.end() 
+    
     return;
 }
 
