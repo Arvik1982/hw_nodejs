@@ -14,7 +14,7 @@ if(request.url === '/?users')
 {
     response.status = 200;
     response.statusMessage = "OK";
-    response.header ="Content-Type: text/plain";
+    response.header ="Content-Type: application/json";
     response.write(getUsers())
     response.end() 
     return;
